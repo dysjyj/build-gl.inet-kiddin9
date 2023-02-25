@@ -4,6 +4,10 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name: kiddin9source
+    uri: https://github.com/kiddin9/openwrt-packages.git
+    branch: master
+
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -18,8 +22,18 @@ packages:
   - wireguard
   - luci-app-eqos
   - wireguard-tools
-
-
+  - luci-app-alist
+  - luci-app-store
+  - chinadns-ng
+  - adguardhome
+  - UnblockNeteaseMusic
+  - luci-app-unblockneteasemusic
+  - luci-app-passwall
+  - luci-app-advanced
+  - luci-app-openclash
+  - luci-app-argon-config
+  - luci-app-argon
+  - luci-app-adguardhome
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
